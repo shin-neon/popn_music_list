@@ -17,3 +17,19 @@ pop'n music 曲探しをするスマホ・PC向け静的検索サイト。
 - 登場作品の表記を指定された pop'n music 1〜29 の名称に統一。
 - 初登場作品が不明・家庭用・Lively・イベント分類の曲は、誤った作品番号を付与せず元の分類を維持。
 - 作品選択の並びを番号順に整理。
+
+
+v1.3: Added five user-confirmed missing AC songs. Full audit is still in progress.
+
+
+## v1.4 修正
+クラシック2〜11のrowspan由来の欠落10曲を追加。AC・Lively両方に分類。なお全HTMLのrowspanを含む全件再解析は未完了です。
+
+
+## v1.5
+元HTMLとの結合セル対応の再照合結果を反映。UPPER譜面は通常譜面と別の曲として登録。詳細はAUDIT.mdを参照。
+
+## v1.6
+- 画面内のハート記号を削除。
+- 収録区分の初期値を「すべて」に変更し、表示順を「すべて → AC限定 → Livelyのみ → AC＋Lively → 要確認」に変更。
+- 条件リセットも「すべて」に戻るよう変更。
